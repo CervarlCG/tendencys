@@ -1,0 +1,23 @@
+.order-products-container .pay {
+  padding: 20px 60px;
+  font-weight: 700;
+  font-size: 16px;
+  display: block;
+  margin: 40px auto;
+}
+
+.order-title {
+  font-weight: 700;
+  display: block;
+  margin: 20px 0px 5px 0px;
+  font-size: 24px;
+}
+.products-actions {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.products-actions button {
+  width: 150px;
+}

@@ -1,0 +1,20 @@
+.payment-modal {
+  text-align: center;
+}
+
+.payment-modal img {
+  width: 64px;
+  display: block;
+  margin: 0px auto;
+}
+
+.payment-modal p {
+  font-weight: 700;
+}
+
+.payment-modal button {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  border-radius: 5px;
+}

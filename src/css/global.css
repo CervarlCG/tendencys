@@ -1,0 +1,77 @@
+:root {
+  --primaryColor: #2196f3;
+  --primaryColorRGB: 33, 150, 243;
+  --primaryDark: #1976d2;
+  --onPrimaryColor: #fff;
+  --errorColor: red;
+  --primaryVariantColor: #4caf50;
+  --primaryVariantDarkColor: #43a047;
+  --secondaryColor: #bdbdbd;
+  --secondaryDarkColor: #9e9e9e;
+  --backgroundColor: #fff;
+  --brakpointMD: 768px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  background-color: #f5f5f5;
+}
+
+.button {
+  background-color: var(--primaryColor);
+  color: var(--onPrimaryColor);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.button:hover {
+  background-color: var(--primaryDark);
+}
+.button-secondary {
+  background-color: var(--secondaryColor);
+}
+.button-secondary:hover {
+  background-color: var(--secondaryDarkColor);
+}
+
+.button-primary-variant {
+  background-color: var(--primaryVariantColor);
+}
+.button-primary-variant:hover {
+  background-color: var(--primaryVariantDarkColor);
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+.input {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+.input:focus {
+  border-color: var(--primaryColor);
+  outline-width: 0px;
+}
+
+.input.input-error {
+  border-color: red;
+}
+
+.input-error-msg {
+  position: absolute;
+  left: 0px;
+  bottom: -16px;
+  color: var(--errorColor);
+  font-size: 12px;
+}

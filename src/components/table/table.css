@@ -1,0 +1,18 @@
+.table {
+  display: grid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table .table-head-item {
+  background-color: rgba(var(--primaryColorRGB), 0.5);
+  padding: 10px 20px;
+}
+
+.table .table-cell {
+  padding: 10px 20px;
+}
+
+.table .cell-even {
+  background-color: #e0e0e0;
+}

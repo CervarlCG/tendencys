@@ -1,0 +1,17 @@
+.form-add-product .form-input:nth-child(odd) {
+  margin-right: 10%;
+}
+
+.form-add-product .form-input {
+  display: inline-block;
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.form-add-product .form-input input {
+  width: 100%;
+}
+
+.form-add-product button {
+  width: 100%;
+}

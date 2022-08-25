@@ -1,0 +1,37 @@
+.orders-page {
+  background-color: var(--backgroundColor);
+  max-width: 1000px;
+  margin: 100px auto 0px auto;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.orders-page .orders-content {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+.orders-page .orders-content .orders-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.orders-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.orders-container > div {
+  width: calc(25% - 12px);
+}
+
+@media screen and (max-width: 768px) {
+  .orders-page {
+    padding: 20px;
+  }
+  .orders-container > div {
+    width: calc(50% - 12px);
+  }
+}
